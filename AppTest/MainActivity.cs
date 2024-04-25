@@ -51,11 +51,6 @@ namespace AppTest
         public void OnBarcodeStr(string barcodestr)
         {
             Console.WriteLine("barcoed data == " + barcodestr);
-            //Toast.MakeText(this, $"barcoed data = " + barcodestr, ToastLength.Short).Show();
-            this.RunOnUiThread(() => {
-                Toast.MakeText(this, $"barcoed data = " + barcodestr, ToastLength.Short).Show();
-            });
-        
         }
     }
 }
