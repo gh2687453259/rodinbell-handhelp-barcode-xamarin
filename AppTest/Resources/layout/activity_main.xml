@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1">
+
+        <Button
+            android:id="@+id/btn_connectBarcode"
+            android:gravity="left|center"
+            android:text="connectBarcode"
+            android:layout_width="match_parent"
+            android:layout_height="57.5dp"
+            android:minWidth="25px"
+            android:minHeight="25px"/>
+
+        <Button
+            android:id="@+id/btn_trigerBarcode"
+            android:gravity="left|center"
+            android:text="trigerBarcode"
+            android:layout_width="match_parent"
+            android:layout_height="57.5dp"
+            android:minWidth="25px"
+            android:minHeight="25px"/>
+
+         <Button
+            android:id="@+id/btn_closeBarcode"
+            android:gravity="left|center"
+            android:text="closeBarcode"
+            android:layout_width="match_parent"
+            android:layout_height="57.5dp"
+            android:minWidth="25px"
+            android:minHeight="25px"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
